@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './App.css';
+import styles from './App.scss';
 
 function App({ children }) {
   return <div className={styles.container}>{children}</div>;
